@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Black Box Celebrations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(45deg, #ff0057, #2b1055);
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: bold;
+      letter-spacing: 2px;
+      animation: glow 2s infinite ease-in-out;
+    }
+    @keyframes glow {
+      0%, 100% { text-shadow: 0 0 15px #ff0057, 0 0 30px #ff0057; }
+      50% { text-shadow: 0 0 30px #2b1055, 0 0 60px #2b1055; }
+    }
+    .section {
+      text-align: center;
+      padding: 30px;
+      background: #1a1a1a;
+      margin: 20px;
+      border-radius: 15px;
+      animation: fadeIn 1.5s ease forwards;
+    }
+    .section h2 {
+      color: #ffcc00;
+      margin-bottom: 10px;
+      font-size: 2em;
+    }
+    .carousel-container {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .carousel-track {
+      display: flex;
+      animation: slide 150s linear infinite;
+      width: calc(550px * 10 + 10px * 20);
+    }
+    .carousel-track img {
+      width: 550px;
+      height: 200px;
+      object-fit: cover;
+      margin: 0 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ff0057;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .carousel-track img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ffcc00;
+    }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .menu img {
+      width: 600px;
+      height: auto;
+      border-radius: 10px;
+      margin: 30px 0;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      box-shadow: 0 0 15px #00ffcc;
+    }
+    .menu img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ffcc00;
+    }
+    .footer {
+      background: #2b1055;
+      text-align: center;
+      padding: 20px;
+      color: #ccc;
+      font-size: 0.9em;
+    }
+    .qr img {
+      width: 150px;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+    .qr img:hover {
+      transform: scale(2.1);
+    }
+    a {
+      color: #00ffcc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>The Black Box Celebrations</header>
+
+  <div class="section">
+    <h2>Private Screening | Events | Birthday & Anniversaries Celebrations</h2>
+    <p>Only ₹999 for 2 Hours (5 Members)</p>
+  </div>
+
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <img src="C:\Users\bhanu\Desktop\HTML\0.jpg">
+      <img src="C:\Users\bhanu\Desktop\HTML\9.jpg">
+      <img src="C:\Users\bhanu\Desktop\HTML\10.jpg">
+      <img src="C:\Users\bhanu\Desktop\HTML\11.jpg">
+      <img src="C:\Users\bhanu\Desktop\HTML\1.jpeg.jpg">
+      <img src="C:\Users\bhanu\Desktop\HTML\2.jpeg.jpg">
+      <img src="C:\Users\bhanu\Desktop\HTML\3.jpeg.jpg"/>
+      <img src="C:\Users\bhanu\Desktop\HTML\4.jpeg.jpg" />
+      <img src="C:\Users\bhanu\Desktop\HTML\5.jpeg.jpg" />
+      <img src="C:\Users\bhanu\Desktop\HTML\6.jpeg.jpg" />
+ <img src="C:\Users\bhanu\Desktop\HTML\7.jpeg.jpg" />
+ <img src="C:\Users\bhanu\Desktop\HTML\8.jpeg.jpg" />
+   </div>
+  </div>
+  <div class="section menu">
+    <h2>Our Menu</h2>
+    <img src="C:\Users\bhanu\Desktop\HTML\menu.jpg">
+  </div>
+
+  <div class="section">
+    <h2>Scan & Follow Us</h2>
+    <div class="qr">
+      <img src="C:\Users\bhanu\Desktop\HTML\qr.jpg">
+
+                 Instagram QR Code
+    </div>
+    <p>Instagram: <a href="https://www.instagram.com/the_black_box_celebrations?igsh=MWI5cXNidjNjN3l2bw==" target="_blank">@the_black_box_celebrations</a></p>
+    <p>Location: <a href="https://www.google.com/maps/place/The+black+box+celebrations/@18.2935236,83.8956426,17z/data=!3m1!4b1!4m6!3m5!1s0x3a3c150014a5645d:0x96ba965c78fe7731!8m2!3d18.2935236!4d83.8956426!16s%2Fg%2F11xky00rnb?entry=ttu" target="_blank">Open in Google Maps</a></p>
+    <p>Call us: +91 9100123062</p>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 The Black Box Celebrations | Dolby Atmos Experience
+  </div>
+</body>
+</html>
